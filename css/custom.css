@@ -1,0 +1,30 @@
+.metroid {
+    background: url(../img/metroids.png);
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    -webkit-animation: metroid 2s steps(8) infinite;
+    -moz-animation: metroid 2s steps(8) infinite;
+    -o-animation: metroid 2s steps(8) infinite;
+    animation: metroid 2s steps(8) infinite;
+}
+@-webkit-keyframes metroid {
+    100% {
+        background-position: 0 -800px;
+    }
+}
+@-moz-keyframes metroid {
+    100% {
+        background-position: 0 -800px;
+    }
+}
+@-o-keyframes metroid {
+    100% {
+        background-position: 0 -800px;
+    }
+}
+@keyframes metroid {
+    100% {
+        background-position: 0 -800px;
+    }
+}
