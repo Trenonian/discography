@@ -1,3 +1,19 @@
+body {
+    background: #161a09;
+}
+h1 {
+    color: #bbcab1;
+}
+h2 {
+    color: #e9d7be;
+}
+body {
+    color: #ccc;
+}
+a {
+    color: #e84a58;
+    text-decoration: underline;
+}
 .metroid {
     background: url(../img/metroids.png);
     height: 100px;
