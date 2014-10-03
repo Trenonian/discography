@@ -3,6 +3,7 @@ body {
 }
 h1 {
     color: #bbcab1;
+    text-align: center;
 }
 h2 {
     color: #e9d7be;
@@ -14,8 +15,30 @@ a {
     color: #e84a58;
     text-decoration: underline;
 }
+.icon-bar {
+    position: relative;
+}
+.icon-bar label {
+    color: #bbcab1;
+    font-size: 1.5rem;
+    line-height: 100px;
+}
+.icon-bar a {
+    text-decoration: none;
+}
+.icon-bar {
+    background: none;
+}
+.item.current {
+    background-color: #273300;
+    cursor: default;
+}
+.item.current label {
+    cursor: default;
+}
 .metroid {
-    background: url(../img/metroids.png);
+    background-image: url(../img/metroids.png);
+    background-repeat: no-repeat;
     height: 100px;
     width: 100px;
     margin: 0 auto;
