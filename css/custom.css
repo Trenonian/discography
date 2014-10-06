@@ -7,6 +7,7 @@ h1 {
 }
 h2 {
     color: #e9d7be;
+    text-align: center;
 }
 body {
     color: #ccc;
@@ -45,6 +46,15 @@ a {
     -moz-animation: metroid 2s steps(8) infinite;
     -o-animation: metroid 2s steps(8) infinite;
     animation: metroid 2s steps(8) infinite;
+}
+form {
+    color: inherit;
+}
+form .fanlabel {
+    line-height: 32px;
+    font-size: 90%;
+    text-align: left;
+    float: right;
 }
 @-webkit-keyframes metroid {
     100% {
