@@ -36,6 +36,33 @@ a {
 .item.current label {
     cursor: default;
 }
+.disclaimer {
+    color: #aaa;
+    font-size: 90%;
+    border-bottom: 1px solid #666;
+    padding-left: 2em;
+}
+table {
+    margin: 0 auto 2em;
+    border: none;
+    background-color: rgba(255, 255, 255, .1);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+table thead {
+    background-color: rgba(232, 74, 88, 0.1);
+}
+table thead tr td {
+    color: #ccc;
+}
+table tr:nth-of-type(even) {
+    background-color: rgba(255, 255, 255, .1);
+}
+table tr td {
+    color: #ccc;
+    background-color: transparent;
+}
 .metroid {
     background-image: url(../img/metroids.png);
     background-repeat: no-repeat;
