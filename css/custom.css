@@ -63,6 +63,12 @@ table tr td {
     color: #ccc;
     background-color: transparent;
 }
+table tr.highlight {
+    background: #eee;
+}
+table tr.highlight td {
+    color: #000;
+}
 .metroid {
     background-image: url(../img/metroids.png);
     background-repeat: no-repeat;
@@ -86,28 +92,28 @@ table tr td {
     padding-bottom: 15%;
     opacity: 0;
 }
-.band:hover {
+.showoutline {
     opacity: 1;
 }
-.stemage {
+.band.stemage {
     left: 5.5%;
     top: 18.5%;
 }
-.kirby {
+.band.kirby {
     left: 37.5%;
     top: 20%;
 }
-.danimal {
+.band.danimal {
     width: 11%;
     left: 54%;
     top: 30%;
 }
-.chunckstyle {
+.band.chunckstyle {
     width: 11.5%;
     left: 65.5%;
     top: 16%;
 }
-.cheddar {
+.band.cheddar {
     left: 78.5%;
     top: 17%;
 }
