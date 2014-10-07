@@ -1,5 +1,6 @@
 body {
     background: #161a09;
+    color: #ccc;
 }
 h1 {
     color: #bbcab1;
@@ -8,9 +9,6 @@ h1 {
 h2 {
     color: #e9d7be;
     text-align: center;
-}
-body {
-    color: #ccc;
 }
 a {
     color: #e84a58;
