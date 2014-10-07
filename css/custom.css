@@ -74,6 +74,43 @@ table tr td {
     -o-animation: metroid 2s steps(8) infinite;
     animation: metroid 2s steps(8) infinite;
 }
+.imgwrapper {
+    margin-bottom: 2em;
+    position: relative;
+}
+.band {
+    position: absolute;
+    height: 0;
+    border: 1px solid white;
+    width: 15%;
+    padding-bottom: 15%;
+    opacity: 0;
+}
+.band:hover {
+    opacity: 1;
+}
+.stemage {
+    left: 5.5%;
+    top: 18.5%;
+}
+.kirby {
+    left: 37.5%;
+    top: 20%;
+}
+.danimal {
+    width: 11%;
+    left: 54%;
+    top: 30%;
+}
+.chunckstyle {
+    width: 11.5%;
+    left: 65.5%;
+    top: 16%;
+}
+.cheddar {
+    left: 78.5%;
+    top: 17%;
+}
 form {
     background-color: rgba(255, 255, 255, .1);
     color: inherit;
