@@ -27,11 +27,11 @@ a {
 .icon-bar {
     background: none;
 }
-.item.current {
+.icon-bar .current {
     background-color: #273300;
     cursor: default;
 }
-.item.current label {
+.icon-bar .current label {
     cursor: default;
 }
 .disclaimer {
@@ -43,19 +43,19 @@ a {
 table {
     margin: 0 auto 2em;
     border: none;
-    background-color: rgba(255, 255, 255, .1);
+    background-color: #262d10;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     overflow: hidden;
 }
 table thead {
-    background-color: rgba(232, 74, 88, 0.1);
+    background-color: #392f16;
 }
 table thead tr td {
     color: #ccc;
 }
 table tr:nth-of-type(even) {
-    background-color: rgba(255, 255, 255, .1);
+    background-color: #3b4127;
 }
 table tr td {
     color: #ccc;
@@ -96,30 +96,29 @@ table tr.highlight td {
 .showoutline {
     opacity: 1;
 }
-.band.stemage {
+.imgwrapper .stemage {
     left: 5.5%;
     top: 18.5%;
 }
-.band.kirby {
+.imgwrapper .kirby {
     left: 37.5%;
     top: 20%;
 }
-.band.danimal {
+.imgwrapper .danimal {
     width: 11%;
     left: 54%;
     top: 30%;
 }
-.band.chunckstyle {
+.imgwrapper .chunckstyle {
     width: 11.5%;
     left: 65.5%;
     top: 16%;
 }
-.band.cheddar {
+.imgwrapper .cheddar {
     left: 78.5%;
     top: 17%;
 }
 form {
-    background-color: rgba(255, 255, 255, .1);
     color: inherit;
     border: 3px solid #ccc;
     padding: 1em;
