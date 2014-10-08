@@ -81,6 +81,9 @@ table tr.highlight td {
 .imgwrapper {
     margin-bottom: 2em;
     position: relative;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .band {
     position: absolute;
@@ -122,6 +125,7 @@ form {
     padding: 1em;
     -webkit-border-radius: 1em;
     border-radius: 1em;
+    margin-bottom: 2em;
 }
 input[type="text"],
 input[type="email"] {
